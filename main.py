@@ -30,9 +30,9 @@ def graphdata(upperbound=None):
     result = seq3np1(i)
     grapher.goto(i, result)
     grapher.down()
+    mywindow.setworldcoordinates(0, 0, (i + 10), (max_so_far + 10))
     if (result > max_so_far):
       max_so_far = result
-      mywindow.setworldcoordinates(0, 0, (i + 10), (max_so_far + 10))
       writer.clear()
       writer.up()
       writer.goto(0, max_so_far)
