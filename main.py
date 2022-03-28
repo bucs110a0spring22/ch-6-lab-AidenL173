@@ -17,6 +17,7 @@ def main():
   for i in range(1,(start + 1)):   
     iterations = seq3np1(i)
     print("N value is", i, "and number of iterations is",  iterations)
+  graphdata(upperbound=start)
 main()
 
 def graphdata(upperbound=None):
@@ -39,4 +40,3 @@ def graphdata(upperbound=None):
       writer.down()
       writer.write("Maximum so far: " + str(i) + ", " + str(max_so_far), False, align="left")
   mywindow.exitonclick()
-graphdata(upperbound=15)
