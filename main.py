@@ -39,4 +39,4 @@ def graphdata(upperbound=None):
       writer.down()
       writer.write("Maximum so far: " + str(i) + ", " + str(max_so_far), False, align="left")
   mywindow.exitonclick()
-graphdata(upperbound=12)
+graphdata(upperbound=15)
