@@ -9,6 +9,7 @@ def seq3np1(n):
     else:                 # n is odd
       n = n * 3 + 1
   return(count)
+
 def main():
   start = int(input("Upper Bound? "))
   if (start <= 0):
