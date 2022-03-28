@@ -8,18 +8,18 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+Part A makes the seq3np1 returns the number of iterations required for a specific number and uses the function in main to check up to the inputted upperbound. Part B graphs the information up to the upper limit and writes the maximum iterations so far.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 0
 
-Grace days remaining: < # >/5
+Grace days remaining: 5/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+N/A
 
 ## REFERENCES:
 https://docs.python.org/3.7/library/turtle.html#turtle.setworldcoordinates
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+N/A
